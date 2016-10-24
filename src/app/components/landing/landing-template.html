@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <h2>Welcome</h2>
+     </div>
+   </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <button class="btn btn-default btn-block" (click)="tryRoute('Stock')" >My StockPile</button> <!--(click)="tryRoute('CheckOutKeys')" -->
+      <br>
+
+      <button class="btn btn-default btn-block" (click)="tryRoute('WatchList')">My WatchList</button>
+      <br>
+
+      <button  class="btn btn-default btn-block" (click)="tryRoute('Preferences')">My Preferences</button>
+      <br>
+
+      <button class="btn btn-default btn-block" (click)="tryRoute('Account')">My Account</button>
+      <br>
+
+      <br>
+
+      <button class="btn btn-danger btn-block"(click)="onLogout()">Log Out</button>
+    </div>
+  </div>
+</div>

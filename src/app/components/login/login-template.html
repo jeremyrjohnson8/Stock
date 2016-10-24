@@ -1,0 +1,15 @@
+<div class ="container">
+  <div class="row">
+      <div class="col-md-12 text-center"> 
+        <h3>Please Login </h3><br>
+          <input #username type="text" placeholder="Username" ><br>
+          <input #password type="password" placeholder="Password"><br>
+      </div>
+      <div class = "clearfix"></div>
+      <div class = "row">
+        <div class = "col-md-12 text-center">
+            <button class="btn btn-success" (click)=onLogin(username.value,password.value)>Log In</button> 
+        </div>
+      </div>
+  </div>
+</div>

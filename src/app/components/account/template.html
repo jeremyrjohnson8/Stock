@@ -1,0 +1,53 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 text-center">
+        <h3>
+            Welcome to The Account Page
+        </h3>
+            <br><br> 
+             <div class="form-group">
+
+                <label for="username">Username</label>
+                <input type="text" class="form-control" placeholder={{user.username}} id="username" required >
+
+                <label for="password">Password</label>
+                <input type="password" placeholder="Password" class="form-control" id="password">
+
+                <label for="email">Email</label>
+                <input type="text" placeholder={{user.email}} class="form-control" id="email" required>
+
+                <label for="firstName">First Name</label>
+                <input type="text" placeholder={{user.firstName}} class="form-control" id="firstName">
+
+                <label for="lastName">Last Name</label>
+                <input type="text" placeholder={{user.lastName}} class="form-control" id="lastName" required>
+
+                <label for="addressLineOne">Address 1</label>
+                <input type="text" placeholder={{user.addressLineOne}} class="form-control" id="addressLineOne">
+
+                <label for="addressLineTwo">Address 2</label>
+                <input type="text" placeholder={{user.addressLineTwo}} class="form-control" id="addressLineTwo" required>
+
+                <label for="city">City</label>
+                <input type="text" placeholder={{user.city}} class="form-control" id="city">
+
+                <label for="state">State</label>
+                <input type="text" placeholder={{user.state}} class="form-control" id="state" required>
+
+                <label for="zipcode">Zip Code</label>
+                <input type="text" placeholder={{user.zipcode}} class="form-control" id="zipcode">
+
+                <label for="birthday">Birthday</label>
+                <input type="text" placeholder={{user.birthday}} class="form-control" id="birthday" required>
+            </div>
+     </div>
+   </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 text-center">
+        <br><br> 
+           <button class="btn btn-default btn-block" (click)="tryRoute('Landing')" >Home</button>
+     </div>
+   </div>
+</div>
