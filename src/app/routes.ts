@@ -5,6 +5,7 @@ import {AccountPage} from './components/account/index';
 import {StockPileComponent} from './components/stock-pile/index';
 import {WatchlistComponent} from './components/watchlist/index';
 import {PreferencesComponent} from './components/preferences/index';
+import {SignUpComponent} from './components/sign-up/index'
 
 export const AppRoutes = [
     {path: '/', component: Login, name: 'Login'},
@@ -13,5 +14,7 @@ export const AppRoutes = [
     {path: '/myaccount', component: AccountPage, name: 'Account'},
     {path: '/mystockpile', component: StockPileComponent, name: 'Stock'},
     {path: '/watchlist', component: WatchlistComponent, name: 'WatchList'},
-    {path: '/preferences', component: PreferencesComponent, name: 'Preferences'}
+    {path: '/preferences', component: PreferencesComponent, name: 'Preferences'},
+    {path: '/sign-up', component: SignUpComponent, name: 'SignUp'}
+
 ]

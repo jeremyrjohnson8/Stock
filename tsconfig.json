@@ -7,7 +7,10 @@
         "sourceMap": true,
         "moduleResolution": "node",
         "jsx": "react",
-        "noEmitHelpers": true
+        "noEmitHelpers": true,
+        "noImplicitAny": false,
+        "removeComments": false,
+        "suppressImplicitAnyIndexErrors": true
     },
     "exclude": [
         "node_modules"

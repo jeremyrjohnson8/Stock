@@ -15,7 +15,7 @@ export class Login {
  username: string = ""; 
  passWord: string = ""; 
  private valid: boolean = false; 
-  constructor(private router: Router) {
+  constructor(private _router: Router) {
     
   }
   private onLogin(name: any, pass: any){
@@ -25,7 +25,10 @@ export class Login {
       this.valid = true; 
     }
     if (this.valid == true){
-      this.router.navigate(['Landing']);
+      this._router.navigate(['Landing']);
     }
+  }
+  private signUp() {
+    this._router.navigate(['SignUp']); 
   }
 }
